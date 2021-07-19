@@ -32,6 +32,7 @@ const ImageApi = ({ searchText }) => {
       setPhotosArr(imgArr);
     }
     getResponse();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchText, page]);
 
   return (
